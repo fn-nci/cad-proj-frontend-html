@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="add-product.html" class="nav-link">Add Product</a>
+    </nav>
+
+    <main class="container">
+        <h1>Products</h1>
+        
+        <div class="filter-section">
+            <label>
+                <input type="checkbox" id="filterAvailable">
+                Show only available products
+            </label>
+        </div>
+
+        <div id="productsList" class="products-grid">
+            <!-- Products will be loaded here -->
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html> 

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: #2ecc71;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.availability {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.view {
+    background: #3498db;
+    color: white;
+}
+
+.edit {
+    background: #f1c40f;
+    color: black;
+}
+
+.delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.product-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    background: #2ecc71;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background: #27ae60;
+}
+
+.filter-section {
+    margin: 1rem 0;
+}
+
+.product-detail {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-detail h1 {
+    margin-bottom: 1.5rem;
+}
+
+.product-info {
+    margin-bottom: 2rem;
+}
+
+.product-info p {
+    margin-bottom: 1rem;
+}
+
+.back {
+    background: #95a5a6;
+    color: white;
+} 

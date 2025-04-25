@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="add-product.html" class="nav-link">Add Product</a>
+    </nav>
+
+    <main class="container">
+        <h1>Add New Product</h1>
+
+        <form id="productForm" class="product-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" step="0.01" required>
+            </div>
+
+            <div class="form-group checkbox">
+                <label>
+                    <input type="checkbox" id="available" name="available" checked>
+                    Available
+                </label>
+            </div>
+
+            <button type="submit" class="submit-btn">Save Product</button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
