@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3000/api/v1';
+const API_BASE_URL = 'http://34.241.85.158:4000';
 
 // Load products on the main page
 if (document.getElementById('productsList')) {
